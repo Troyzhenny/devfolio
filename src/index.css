@@ -1,0 +1,18 @@
+/* GLOBAL STYLES */
+
+* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Geist Variable';
+  background-color: black;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
