@@ -1,0 +1,36 @@
+<svg
+  width="100%"
+  height="100%"
+  viewBox="0 0 186 198"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xml:space="preserve"
+  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+>
+  <!-- Define the main shapes and their styles -->
+  <g>
+    <!-- Left vertical rectangle -->
+    <path
+      d="M96.667,197.725l-0,-197.725l-96.667,0l0,50.667l46,-0l0,147.058l50.667,0Z"
+      style="fill:#fff;"
+    />
+    
+    <!-- Top horizontal rectangle -->
+    <rect
+      x="110"
+      y="0"
+      width="76"
+      height="50.667"
+      style="fill:#fff;"
+    />
+    
+    <!-- Bottom horizontal rectangle -->
+    <rect
+      x="110"
+      y="147.059"
+      width="76"
+      height="50.667"
+      style="fill:#fff;"
+    />
+  </g>
+</svg>
