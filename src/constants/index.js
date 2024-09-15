@@ -1,4 +1,4 @@
-export const navList = ["Home", "Work", "About", "Contact"];
+export const navList = ["Home", "About", "Work"];
 export const footerLinks = ["Socials", "Contact", "Studio"];
 
 export const projectList = [
