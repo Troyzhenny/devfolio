@@ -5,7 +5,7 @@ import PrimaryButton from "./ui/PrimaryButton";
 const Navbar = () => {
   return (
     <>
-      <header className="full-width  pady-5 flex-center justify-between">
+      <header className="full-width  pady-5 flex-center justify-between position-fixed">
         <nav className="flex-center full-width">
           <img src={logoImg} alt="Tevin's logo" width={20} height={20}
           className="transition-all pointer"
