@@ -4,9 +4,9 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div>
+      <main>
         <Navbar />
-      </div>
+      </main>
       <h1>TEVIN CAMPBELL</h1>
     </>
   );
