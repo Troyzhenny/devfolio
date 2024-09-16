@@ -1,5 +1,10 @@
-export const navList = ["Home", "About", "Work"];
-export const footerLinks = ["Socials", "Contact", "Studio"];
+export const navList = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+  { name: 'Work', path: '/work' }
+];
+
+// export const footerLinks = ["Socials", "Contact", "Studio"];
 
 export const projectList = [
 

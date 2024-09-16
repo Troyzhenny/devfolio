@@ -5,7 +5,7 @@ import PrimaryButton from "./ui/PrimaryButton";
 
 const Navbar = () => {
   return (
-    <header className="full-width pady-5 flex-center justify-between position-fixed">
+    <header className="full-width pady-5 flex position-fixed">
       <nav className="flex-center full-width padx-5">
         <Link to="/">
           <img 

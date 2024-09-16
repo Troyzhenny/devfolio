@@ -9,10 +9,174 @@
   background-color: black;
 }
 
-h1 {
-  color: #fff;
+.flex {
+  display: flex;
+  flex: 1;
 }
 
-p {
-  color: #fff;
+
+.flex-center {
+  display: flex;
+  place-items: center;
 }
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.text-white {
+  color: white;
+}
+
+.padx-5 {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.pady-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.hover-gray:hover {
+  color: gray;
+}
+
+.hover-white:hover {
+  color: white;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Only for navbar vs page height */
+.full-height {
+  height: 100vh;
+  height: calc(100vh - 50px)
+}
+
+/* Only for navbar vs page height */
+.position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.screen-full-w {
+  width: 100vw;
+}
+
+.transition-all {
+  transition: all .3s ease;
+}
+
+h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.hero-txt-efx {
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-height {
+  line-height: .9;
+}
+
+.primaryBtn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 85px;
+  height: 30px;
+  font-size: .87em;
+}
+
+.ctaBtn {
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+}
+
+.cto-outline {
+  border: .8px solid white;
+  border-radius: 30px;
+  width: 12rem;
+  height: 3rem;
+}
+
+#cta-text {
+  margin-left: 2.5em;
+}
+
+/* gap between each list item */
+.list-gap {
+  gap: 40px;
+}
+
+.reg-gap {
+  gap: 10px;
+}
+
+.tags {
+  /* border: 1px solid white;
+  border-radius: 30px; */
+  width: 12rem;
+  padding-right: .5em;
+  padding-left: .5em;
+  padding-bottom: 6rem;
+  height: 1.50rem;
+  font-size: .8rem;
+
+  margin-top: -55px;
+}
+
+.tag-hover-efx:hover {
+  border-color: gray;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+
+/* 
+#secondaryButton {}
+*/
