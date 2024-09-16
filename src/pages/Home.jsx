@@ -1,12 +1,13 @@
 import CtaBtn from "../components/ui/CtaButton";
-import Tags from "../components/ui/Tags";
 
 const Home = () => {
   return (
     <section className="flex-center justify-center full-width full-height flex-column">
       <div className="flex-column flex-center">
         <h1 className="heading-height hero-txt-efx">TEVIN CAMPBELL</h1>
-        <Tags />
+        <p id="byLine" className="text-sm text-gray">
+          Frontend Developer building what I love, one project at a time.
+        </p>
       </div>
 
       <div id="cta" className="flex-center reg-gap">
