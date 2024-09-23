@@ -1,32 +1,38 @@
 export const navList = [
-  { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
-  { name: 'Work', path: '/work' }
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Work", path: "/work" },
 ];
 
 // export const footerLinks = ["Socials", "Contact", "Studio"];
 
 export const projectList = [
-
   {
     id: "1",
-    title: "project 1",
-    description: ""
+    image: "/images/p1.jpg",
+    title: "Project 1",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
   },
   {
     id: "2",
-    title: "project 2",
-    description: ""
+    image: "/images/p1.jpg",
+    title: "Project 2",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
   },
   {
     id: "3",
-    title: "project 3",
-    description: ""
+    image: "/images/p1.jpg",
+    title: "Project 3",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
   },
   {
     id: "4",
-    title: "project 4",
-    description: ""
+    image: "/images/p1.jpg",
+    title: "Project 4",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
   },
 ];
-
