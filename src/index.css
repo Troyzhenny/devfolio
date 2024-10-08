@@ -139,7 +139,8 @@ a {
 }
 
 #byLine {
-  margin-top: -3rem;
+  margin-top: -7rem;
+  margin-bottom: 7rem;
   padding-bottom: 5rem;
   font-size: 1.2em;
 }
