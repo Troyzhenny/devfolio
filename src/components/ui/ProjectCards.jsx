@@ -2,7 +2,7 @@ import SecondaryButton from "./SecondaryButton";
 import PropTypes from "prop-types";
 
 const ProjectCard = ({ project }) => {
-  const { image, title, description } = project;
+  const { image, title, description, codeUrl } = project;
 
   return (
     // TODO: When card is hovered, top right corner an icon pops up to view live site
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
           <p className="text-white">
            {description}
           </p>
-          <SecondaryButton value="Code" />
+          <SecondaryButton value="Code" url={codeUrl} />
         </div>
       </div>
     </div>
@@ -30,7 +30,8 @@ ProjectCard.propTypes = {
   project: PropTypes.shape({
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
+    description: PropTypes.string.isRequired,
+    codeUrl: PropTypes.string.isRequired
   }).isRequired,
 };
 

@@ -13,6 +13,7 @@ export const projectList = [
     title: "Project 1",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+    codeUrl: "https://github.com/Troyzhenny/surgepos",
   },
   {
     id: "2",
@@ -20,6 +21,7 @@ export const projectList = [
     title: "Project 2",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+    codeUrl: "https://github.com/Troyzhenny/kyromerch",
   },
   {
     id: "3",
@@ -27,6 +29,7 @@ export const projectList = [
     title: "Project 3",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+    codeUrl: "https://github.com/Troyzhenny/playstation.com-clone",
   },
   {
     id: "4",
@@ -34,5 +37,6 @@ export const projectList = [
     title: "Project 4",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+    codeUrl: "https://github.com/Troyzhenny/devfolio",
   },
 ];
