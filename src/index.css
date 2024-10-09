@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   
-  font-family: 'Geist Variable';
+  font-family: 'Satoshi', sans-serif;
   background-color: black;
   scroll-behavior: smooth;
 }
@@ -15,6 +15,13 @@ header {
   background: transparent;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: black;
 }
 
 .flex {
@@ -109,7 +116,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: white;
 }
 
@@ -127,22 +134,15 @@ a {
   color: gray;
 }
 
-.hero-txt-efx {
-  background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .heading-height {
-  line-height: .9;
+  line-height: .5;
 }
 
 #byLine {
-  margin-top: -7rem;
-  margin-bottom: 7rem;
-  padding-bottom: 5rem;
+  margin-top: -8rem;
+  margin-bottom: 5rem;
   font-size: 1.2em;
+  font-weight: normal;
 }
 
 .primaryBtn {
@@ -196,7 +196,7 @@ a {
 .card {
   width: 40rem;
   height: 40rem;
-  border: .1rem solid gray;
+  border: .11rem solid rgb(51, 51, 51);
   border-radius: 10px;
   position: relative;
 
@@ -243,4 +243,32 @@ a {
   padding-left: .5em;
   height: 1.50rem;
   font-size: .8rem;
+}
+
+.page-pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.profile {
+  border-radius: 100%;
+  min-height: 100%;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+}
+
+.bio-wrapper {
+  gap: 6rem;
+  padding: 2rem;
+
+  /* border: 1px solid coral; */
+
+  .para-wrapper {
+    width: 35rem;
+    word-wrap: break-word;
+    line-height: 1.3em;
+
+    /* border: 1px solid coral; */
+  }
 }

@@ -13,7 +13,7 @@ export const projectList = [
     title: "Project 1",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
-    codeUrl: "https://github.com/Troyzhenny/surgepos",
+    // codeUrl: "https://github.com/Troyzhenny/surgepos",
   },
   {
     id: "2",
@@ -40,3 +40,7 @@ export const projectList = [
     codeUrl: "https://github.com/Troyzhenny/devfolio",
   },
 ];
+
+export const biography = {
+  bio: "This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon",
+};
