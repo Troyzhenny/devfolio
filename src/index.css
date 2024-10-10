@@ -111,7 +111,7 @@ footer {
 }
 
 h1 {
-  color: #fff;
+  color: white;
   font-size: 5rem;
 }
 
@@ -250,6 +250,7 @@ a {
   padding-bottom: 100px;
 }
 
+/* ABOUT PAGE PROFILE PHOTO */
 .profile {
   border-radius: 100%;
   min-height: 100%;
