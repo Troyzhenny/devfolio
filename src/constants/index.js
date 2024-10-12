@@ -4,6 +4,15 @@ export const navList = [
   { name: "Work", path: "/work" },
 ];
 
+export const items = [
+  {id: 1, name: 'HTML', image: '/images/html.svg'},
+  {id: 2, name: 'CSS', image: '/images/css3.svg'},
+  {id: 5, name: 'JavaScript', image: '/images/javascript.svg'},
+  {id: 3, name: 'Sass', image: '/images/sass.svg'},
+  {id: 4, name: 'Tailwind', image: '/images/tailwind.svg'},
+  {id: 6, name: 'React', image: '/images/react.svg'}
+]
+
 // export const footerLinks = ["Socials", "Contact", "Studio"];
 
 export const projectList = [
@@ -40,7 +49,3 @@ export const projectList = [
     codeUrl: "https://github.com/Troyzhenny/devfolio",
   },
 ];
-
-export const biography = {
-  bio: "This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon. This should be a paragraph about my self and about things i've accomplished and would love to accomplish soon",
-};
