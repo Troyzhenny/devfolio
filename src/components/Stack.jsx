@@ -8,7 +8,7 @@ const { scrollYProgress } = useScroll();
 
 //   Creates Transformations for opacity and translateY position
 const opacity = useTransform(scrollYProgress, [0, .3], [0, 1]);
-const translateY = useTransform(scrollYProgress, [0, 0.3], [200, 0]);
+const translateY = useTransform(scrollYProgress, [0, 0.3], [300, 0]);
 
 
   return (
@@ -19,7 +19,7 @@ const translateY = useTransform(scrollYProgress, [0, 0.3], [200, 0]);
           <motion.div
             key={item.id}
             style={{ opacity, translateY }}
-            transition={{ ease: 'linear'}}
+            transition={{ ease: 'easeIn'}}
             className="stack-container flex-center justify-center flex-column text-gray"
           >
             <img src={item.image} alt={item.name} />
