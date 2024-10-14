@@ -4,8 +4,7 @@ const Bio = () => {
       <p className="text-white flex wrap">
         I am an enthusiastic web developer from North
         Carolina. With a passion for my craft, I excel in crafting sleek,
-        minimalist, and responsive web solutions that not only meet but exceed
-        client expectations. 
+        minimalist, and responsive web solutions. 
         <br />
         <br />
         When I am not coding, I enjoy playing
