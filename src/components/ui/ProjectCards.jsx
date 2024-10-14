@@ -1,4 +1,4 @@
-import SecondaryButton from "./PrimaryBtn";
+import PrimaryBtn from "./PrimaryBtn";
 import PropTypes from "prop-types";
 
 const ProjectCard = ({ project }) => {
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
           <p className="text-white">
            {description}
           </p>
-          <SecondaryButton value="Code" url={codeUrl} />
+          <PrimaryBtn value="Code" url={codeUrl} />
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ ProjectCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    codeUrl: PropTypes.string.isRequired
+    codeUrl: PropTypes.string
   }).isRequired,
 };
 
