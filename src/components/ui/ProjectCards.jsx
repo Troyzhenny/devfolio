@@ -1,4 +1,4 @@
-import SecondaryButton from "./SecondaryButton";
+import SecondaryButton from "./PrimaryBtn";
 import PropTypes from "prop-types";
 
 const ProjectCard = ({ project }) => {
