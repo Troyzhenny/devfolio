@@ -26,7 +26,6 @@ const translateY = useTransform(scrollYProgress, [0, 0.3], [300, 0]);
             <h3 className="text-gray text-sm">{item.name}</h3>
           </motion.div>
         ))}
-        ;
       </div>
     </motion.div>
   );
