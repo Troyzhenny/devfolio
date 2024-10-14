@@ -1,12 +1,10 @@
 const Resume = () => {
   return (
-    <div className="text-gray">
-      <h2>Resume</h2>
-
+    <div className="cv-wrapper text-gray">
       <section>
         <h3>Relevant Experience</h3>
         <div>
-          <h4>Lead Engineer • Upstatement</h4>
+          <h3>Lead Engineer • Upstatement</h3>
           <span>Mar 2022 - Present</span>
           <ul>
             <li>
@@ -39,7 +37,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h4>Developer • PBRP</h4>
+          <h3>Frontend Engineer • PBRP</h3>
           <span>Fall 2023 - 2024</span>
           <ul>
             <li>
@@ -50,7 +48,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h4>UI Engineer Co-op • Apple</h4>
+          <h3>UI Engineer Co-op • Apple</h3>
           <span>July - Dec 2017</span>
           <ul>
             <li>
@@ -73,73 +71,16 @@ const Resume = () => {
             </li>
           </ul>
         </div>
-
-        <div>
-          <h4>Software Engineer Co-op • Starry</h4>
-          <span>July - Dec 2016</span>
-          <ul>
-            <li>
-              Engineered and improved major features of Starry&apos;s
-              customer-facing Android web app using ES6, Handlebars, Backbone,
-              Marionette, and CSS.
-            </li>
-            <li>
-              Proposed and implemented scalable solutions to issues identified
-              with cloud services and applications responsible for communicating
-              with the Starry Station internet router.
-            </li>
-            <li>
-              Collaborated with designers and other developers to ensure a
-              cohesive user experience.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <h3>Skills</h3>
-        <div>
-          <h4>Programming Languages:</h4>
-          <p>JavaScript, HTML, CSS, SCSS</p>
-        </div>
-        <div>
-          <h4>Libraries & Frameworks:</h4>
-          <p>Vue, Tailwind, React</p>
-        </div>
-        <div>
-          <h4>Tools & Platforms:</h4>
-          <p>Git, GitHub, GitLab, Netlify, Figma, Affinity Designer</p>
-        </div>
-      </section>
-
-      <section>
-        <h3>Selected Projects</h3>
-        <ul>
-          <li>
-            Build a Spotify Connected App video course that teaches how to build
-            a web app with the Spotify API. Topics covered include the
-            principles of REST APIs, user auth flows, Node, Express, React,
-            Styled Components, and more.
-          </li>
-          <li>
-            Surge POS: A point-of-sale software built in React, providing a
-            better solution for a pizza shop or any business selling a product.
-          </li>
-          <li>Devfolio: My Dev portfolio, created in Vue.js.</li>
-          <li>
-            PlayStation.com: Recreation of PlayStation.com with some personal
-            touches.
-          </li>
-        </ul>
       </section>
 
       <section>
         <h3>Interests</h3>
         <p>Food, the beach, cars, soccer</p>
       </section>
-
+      <br />
+      <br />
       <section>
-        <a href="#">Download Resume</a>
+        <a href="/resume.pdf">Download full resume</a>
       </section>
     </div>
   );
