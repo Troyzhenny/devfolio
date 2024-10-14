@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 const Work = () => {
   return (
     <div className="projects flex-center flex-column page-pad">
-      <motion.h2
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ ease: "linear", delay: 0.2, duration: 0.4 }}
       >
         <h2>Selected Work</h2>
-      </motion.h2>
+      </motion.div>
 
       <motion.div
         className="flex gap wrap justify-center"
