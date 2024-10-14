@@ -1,20 +1,30 @@
 import { projectList } from "../constants/index";
 import ProjectCard from "../components/ui/ProjectCards";
-
+import { motion } from "framer-motion";
 
 const Work = () => {
-    return(
-        <div className="projects flex-center flex-column page-pad">
-            <h2>Selected Work</h2>
-            
-            <div className="flex gap wrap justify-center">
-                {projectList.map(project => (
-                    <ProjectCard key={project.id} project={project} />
-                ))}
-            </div>
-        </div>
+  return (
+    <div className="projects flex-center flex-column page-pad">
+      <motion.h2
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "linear", delay: 0.2, duration: 0.4 }}
+      >
+        <h2>Selected Work</h2>
+      </motion.h2>
 
-    )
-}
+      <motion.div
+        className="flex gap wrap justify-center"
+        initial={{ opacity: 0, translateY: 500 }}
+        animate={{ opacity: 1, translateY: 1 }}
+        transition={{ ease: "linear", delay: 0.3, duration: 0.6 }}
+      >
+        {projectList.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </motion.div>
+    </div>
+  );
+};
 
 export default Work;
