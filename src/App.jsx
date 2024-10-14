@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
     <Router>
-      <main className="padx-5">
+      <main>
         <Navbar />
         
         <Routes>
