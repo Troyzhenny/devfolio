@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { navList } from "../constants/index";
 import logoImg from "/images/logoImg.svg";
-import PrimaryButton from "./ui/PrimaryButton";
+import PrimaryButton from "./ui/ContactBtn";
 
 const Navbar = () => {
   return (
