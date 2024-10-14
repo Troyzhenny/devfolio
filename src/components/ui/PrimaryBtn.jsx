@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
 
-const SecondaryButton = ({ value, url }) => {
+const PrimaryBtn = ({ value, url }) => {
   const handleClick = () => {
     if (url) {
         window.open(url, '_blank');
@@ -13,16 +13,16 @@ const SecondaryButton = ({ value, url }) => {
     <input
       type="button"
       value={value}
-      className="secondaryBtn pointer"
+      className="primary--btn pointer"
       onClick={handleClick}
       disabled={!url}
     />
   );
 };
 
-SecondaryButton.propTypes = {
+PrimaryBtn.propTypes = {
   value: propTypes.string.isRequired,
-  url: propTypes.string.isRequired,
+  url: propTypes.string,
 };
 
-export default SecondaryButton;
+export default PrimaryBtn;
