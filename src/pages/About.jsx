@@ -17,20 +17,20 @@ const About = () => {
         </motion.div>
 
         <div className="para-wrapper">
-          <motion.h2
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ ease: "linear", delay: 0.2, duration: 0.4 }}
           >
             <h2>About me</h2>
-          </motion.h2>
-          <motion.p
+          </motion.div>
+          <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
           >
             <Bio />
-          </motion.p>
+          </motion.div>
         </div>
       </div>
 
