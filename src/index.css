@@ -257,19 +257,52 @@ a {
   height: 15rem;
   width: 15rem;
   object-fit: cover;
+  filter: grayscale();
 }
 
 .bio-wrapper {
   gap: 6rem;
-  padding: 2rem;
-
-  /* border: 1px solid coral; */
-
+  width: 100%;
+  min-height: 80vh;
   .para-wrapper {
     width: 35rem;
     word-wrap: break-word;
     line-height: 1.3em;
-
-    /* border: 1px solid coral; */
   }
+}
+
+.stack-container {
+  width: 6rem;
+  min-height: 6rem;
+
+  img {
+    width: 2.5rem;
+  }
+}
+
+.skills {
+  width: 100%;
+  min-height: 100%;
+  padding: 5rem 0;
+}
+
+.cv-wrapper {
+  padding: 0 20rem;
+}
+
+
+
+
+
+
+
+
+
+/* Dev debugging */
+.debug {
+  border: 1px solid coral;
+}
+
+.debug2 {
+  border: 1px solid lime;
 }
