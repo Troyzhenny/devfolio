@@ -34,13 +34,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="skills flex-center justify-center flex-column gap">
+      <div className="stack--wrapper flex-center justify-center flex-column gap">
         <h3>My Stack</h3>
         <Stack />
       </div>
 
-      <div className="cv debug flex-center justify-center flex-column gap">
-        <h3>Resume</h3>
+      <div className="cv flex-center justify-center flex-column gap">
+        <h3>Relevant Experience</h3>
         <Resume />
       </div>
     </section>
