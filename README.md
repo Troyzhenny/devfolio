@@ -19,9 +19,6 @@ cd devfolio
 npm install
 
 
-
-6. Usage
-
 Usage:
 
 	1.	Start the development server:
@@ -31,7 +28,6 @@ npm start
 
 	2.	Open your browser and go to http://localhost:3000.
 
-7. Technologies Used
 
 Technologies Used:
 
