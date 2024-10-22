@@ -1,7 +1,7 @@
 const ContactBtn = () => {
 
   return (
-    <div>
+    <div className="text-sm">
       <a
         href={"mailto:tevincampbell73@yahoo.com"}
         className="contact--btn pointer transition-all flex-center text-white hover-gray gap-sm"
