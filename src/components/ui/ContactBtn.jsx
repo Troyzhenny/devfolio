@@ -1,11 +1,9 @@
 const ContactBtn = () => {
-  const myEmail = import.meta.VITE_MY_EMAIL;
-  console.log('Environment Variable:', myEmail); 
 
   return (
     <div>
       <a
-        href={`mailto:${myEmail}`}
+        href={"mailto:tevincampbell73@yahoo.com"}
         className="contact--btn pointer transition-all flex-center text-white hover-gray gap-sm"
       >
         <li>Contact</li>
