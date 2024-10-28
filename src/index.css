@@ -185,12 +185,15 @@ a {
   height: 3rem;
 
   .ctaBtn {
-    background-color: var(--primary--color);
+    background-color: transparent;
     border-radius: 30px;
-    border: none;
+    border: .5px solid white;
     width: 3rem;
     height: 3rem;
 
+    svg {
+      fill: var(--primary--color);
+    }
   }
 
   #cta-text {
@@ -264,9 +267,10 @@ a {
 }
 
 .bio-wrapper {
-  gap: 6rem;
-  min-height: 80vh;
-
+  min-height: 100%;
+  gap: 4rem;
+  margin: 7rem 0rem;
+  
   .para-wrapper {
     width: 35rem;
     word-wrap: break-word;
@@ -320,17 +324,31 @@ a {
 
 /* MEDIA-QUERIES */
 /* Small Screens */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 380px) {
   #--home,
   #--work,
   #--about {
     #--cta-container {
-      width: 10.5rem;
+      width: 9rem;
+    }
+
+    .ctaBtn {
+      display: flex;
+      justify-content: center;
+
+      svg {
+        width: 1rem;
+      }
+
+    }
+    
+    #cta-text {
+      margin-left: 2em;
     }
 
     h1 {
-      font-size: 3.5rem;
-      line-height: .9;
+      font-size: 3rem;
+      line-height: 1;
     }
 
     p {
@@ -339,9 +357,13 @@ a {
       flex-wrap: wrap;
     }
 
+    h2 {
+      font-size: 3em;
+    }
+
     h3,
     span {
-      font-size: .9rem;
+      font-size: .8em;
     }
   }
 
@@ -366,16 +388,21 @@ a {
   }
 
   .profile {
-    height: 13rem;
-    width: 13rem;
+    height: 12rem;
+    width: 12rem;
   }
 
   .bio-wrapper {
-    gap: .5rem;
-    width: 29rem;
-
+    gap: rem;
+    width: 24rem;
+    
     .para-wrapper {
-      line-height: 1.2em;
+      line-height: 1.1em;
+      
+      h2 {
+        line-height: 1;
+        text-align: center;
+      }
     }
   }
 
@@ -384,7 +411,7 @@ a {
   }
 
   .cv-wrapper {
-    width: 29rem;
+    width: 24rem;
     padding: 0rem;
   }
 
@@ -404,7 +431,7 @@ a {
     }
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       line-height: .9;
     }
 
@@ -425,8 +452,8 @@ a {
   }
 
   #card {
-    width: 25rem;
-    height: 25rem;
+    width: 40rem;
+    height: 40rem;
 
     #imageWrapper {
       img {
@@ -438,6 +465,11 @@ a {
     #deck {
       width: 80%;
     }
+  }
+
+  .profile {
+    height: 12rem;
+    width: 12rem;
   }
 
   .bio-wrapper {
@@ -480,6 +512,11 @@ a {
   #--header>nav {
     visibility: visible;
   }
+
+  .profile {
+    height: 15rem;
+    width: 15rem;
+  }
   
   .bio-wrapper {
     gap: 6rem;
@@ -497,21 +534,20 @@ a {
   }
   
   .cv-wrapper {
-    border: 1px solid yellow;
     min-width: 70rem; 
   }
 
   #card {
-    width: 40rem;
-    height: 40rem;
+    width: 35rem;
+    height: 35rem;
   
   
     #imageWrapper {
       width: 100%;
   
       img {
-        width: 40rem;
-        height: 40rem;
+        width: 35rem;
+        height: 35rem;
       }
     }
   
