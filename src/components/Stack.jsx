@@ -14,7 +14,7 @@ const translateY = useTransform(scrollYProgress, [0, 0.3], [300, 0]);
   return (
       
       <motion.div style={{ opacity, translateY }}>
-      <div className="flex wrap gap">
+      <div className="flex wrap flex-center justify-center gap">
         {items.map((item) => (
           <motion.div
             key={item.id}
