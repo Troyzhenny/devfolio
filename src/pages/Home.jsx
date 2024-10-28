@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section className="flex-center justify-center full-width full-height flex-column">
+    <section id="--home" className="flex-center justify-center full-width full-height flex-column">
       <div className="flex-column flex-center">
         <motion.div
           initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1, ease: "linear" }}
         >
-          <div className="cto-container flex-center justify-between">
+          <div id="--cta-container" className="cto-container flex-center justify-between">
             <h3 id="cta-text" className="text-white">
               See Work
             </h3>

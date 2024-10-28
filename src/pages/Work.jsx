@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Work = () => {
   return (
-    <div className="projects flex-center flex-column page-pad">
+    <section id="--work" className="projects flex-center flex-column page-pad">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -23,7 +23,7 @@ const Work = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </motion.div>
-    </div>
+    </section>
   );
 };
 

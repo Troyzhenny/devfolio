@@ -6,7 +6,10 @@ import Bio from "../components/Bio";
 
 const About = () => {
   return (
-    <section className="projects flex-center flex-column page-pad gap">
+    <section
+      id="--about"
+      className="projects flex-center flex-column page-pad gap"
+    >
       <div className="bio-wrapper flex-center wrap justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -34,7 +37,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="stack--wrapper flex-center justify-center flex-column gap">
+      <div className="stack--wrapper flex-center flex-column wrap gap">
         <h3>My Stack</h3>
         <Stack />
       </div>
