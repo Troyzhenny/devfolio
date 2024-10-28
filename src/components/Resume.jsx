@@ -2,7 +2,7 @@ const Resume = () => {
   return (
     <div className="cv-wrapper text-gray">
       <section>
-        <div>
+        {/* <div>
           <h3 className="text-white">Lead Engineer • Upstatement</h3>
           <span>Mar 2022 - Present</span>
           <ul>
@@ -37,20 +37,25 @@ const Resume = () => {
               shares.
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div>
           <h3 className="text-white">Frontend Engineer • PBRP</h3>
           <span>Fall 2023 - 2024</span>
           <ul>
             <li>
-              Collaborated with designers and other engineers on various game
+              Collaborate with designers and other engineers on various game
               user interfaces for the PBRP Grand Theft Auto V game server.
+            </li>
+            <br />
+            <li>
+              Provide designing assistance to designers to build and refine user
+              interfaces.
             </li>
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <h3 className="text-white">UI Engineer Co-op • Apple</h3>
           <span>July - Dec 2017</span>
           <ul>
@@ -75,7 +80,7 @@ const Resume = () => {
               into web applications.
             </li>
           </ul>
-        </div>
+        </div> */}
       </section>
       <br />
       <br />
