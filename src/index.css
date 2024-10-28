@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
   font-family: 'Satoshi', sans-serif;
   background-color: var(--background-color);
   color: var(--text-color1);
@@ -183,14 +183,14 @@ a {
   border-radius: 30px;
   width: 12rem;
   height: 3rem;
-  
+
   .ctaBtn {
     background-color: var(--primary--color);
     border-radius: 30px;
     border: none;
     width: 3rem;
     height: 3rem;
-  
+
   }
 
   #cta-text {
@@ -265,8 +265,8 @@ a {
 
 .bio-wrapper {
   gap: 6rem;
-  width: 100%;
   min-height: 80vh;
+
   .para-wrapper {
     width: 35rem;
     word-wrap: break-word;
@@ -295,6 +295,7 @@ a {
   li::before {
     content: '• ';
   }
+
   span {
     font-style: oblique;
     color: #ae9f83;
@@ -317,10 +318,209 @@ a {
 }
 
 
+/* MEDIA-QUERIES */
+/* Small Screens */
+@media screen and (min-width: 480px) {
+  #--home,
+  #--work,
+  #--about {
+    #--cta-container {
+      width: 10.5rem;
+    }
 
+    h1 {
+      font-size: 3.5rem;
+      line-height: .9;
+    }
 
+    p {
+      font-size: .99em;
+      display: flex;
+      flex-wrap: wrap;
+    }
 
+    h3,
+    span {
+      font-size: .9rem;
+    }
+  }
 
+  #--header>nav {
+    visibility: hidden;
+  }
+
+  #card {
+    width: 25rem;
+    height: 25rem;
+
+    #imageWrapper {
+      img {
+        width: 25rem;
+        height: 25rem;
+      }
+    }
+
+    #deck {
+      width: 80%;
+    }
+  }
+
+  .profile {
+    height: 13rem;
+    width: 13rem;
+  }
+
+  .bio-wrapper {
+    gap: .5rem;
+    width: 29rem;
+
+    .para-wrapper {
+      line-height: 1.2em;
+    }
+  }
+
+  .stack--wrapper {
+    width: 29rem;
+  }
+
+  .cv-wrapper {
+    width: 29rem;
+    padding: 0rem;
+  }
+
+}
+
+/* Medium Screens */
+@media screen and (min-width: 768px) {
+  #--header #--ham-container {
+    display: none;
+  }
+
+  #--home,
+  #--work,
+  #--about {
+    #--cta-container {
+      width: 10.5rem;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      line-height: .9;
+    }
+
+    p {
+      font-size: .99em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    h3,
+    span {
+      font-size: .9rem;
+    }
+  }
+
+  #--header>nav {
+    visibility: visible;
+  }
+
+  #card {
+    width: 25rem;
+    height: 25rem;
+
+    #imageWrapper {
+      img {
+        width: 25rem;
+        height: 25rem;
+      }
+    }
+
+    #deck {
+      width: 80%;
+    }
+  }
+
+  .bio-wrapper {
+    width: 40rem;
+  }
+
+  .cv-wrapper {
+    width: 39rem;
+    padding: 0rem;
+  }
+
+}
+
+/* Large Screens */
+@media screen and (min-width: 1200px) {
+  #--home,
+  #--work,
+  #--about {
+    #--cta-container {
+      width: 10.5rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+      line-height: .9;
+    }
+
+    p {
+      font-size: .99em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    h3,
+    span {
+      font-size: .9rem;
+    }
+  }
+
+  #--header>nav {
+    visibility: visible;
+  }
+  
+  .bio-wrapper {
+    gap: 6rem;
+    min-width: 75rem;
+  
+    .para-wrapper {
+      line-height: 1.3em;
+    }
+  }
+  
+  .stack--wrapper {
+    width: 100%;
+    min-height: 100%;
+    padding: 5rem 0;
+  }
+  
+  .cv-wrapper {
+    border: 1px solid yellow;
+    min-width: 70rem; 
+  }
+
+  #card {
+    width: 40rem;
+    height: 40rem;
+  
+  
+    #imageWrapper {
+      width: 100%;
+  
+      img {
+        width: 40rem;
+        height: 40rem;
+      }
+    }
+  
+    #deck {
+      height: 100%;
+      width: 60%;
+    }
+  }
+}
 
 /* Dev debugging */
 .debug {
