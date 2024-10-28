@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
     <Router>
-      <main>
+      <main className="page-pad">
         <Navbar />
         
         <Routes>
