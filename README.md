@@ -6,7 +6,7 @@ Installation:
 
 	1.	Clone the repository:
 
-git clone https://github.com/your-username/devolio.git
+git clone https://github.com/Troyzhenny/devfolio
 
 
 	2.	Navigate to the project directory:
