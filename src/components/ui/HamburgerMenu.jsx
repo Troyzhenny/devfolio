@@ -1,8 +1,15 @@
 import { Fade as Hamburger } from "hamburger-react";
 import { navList } from "../../constants";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const BurgerMenu = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuLinkClick = () => {
+    setIsMenuOpen(false)
+  }
+
   return (
     <>
       <div id="--ham-container">
@@ -13,13 +20,24 @@ const BurgerMenu = () => {
           distance="md"
           color="white"
           easing="ease-in"
-        >
-          {navList.map((nav) => (
-            <Link key={nav.name} to={nav.path} className="hover-white">
-              {nav.name}
-            </Link>
-          ))}
-        </Hamburger>
+          toggled={isMenuOpen}
+          toggle={setIsMenuOpen}
+        />
+
+        {isMenuOpen && (
+          <div id="menu" className="flex justify-center flex-column gap">
+            {navList.map((nav) => (
+              <Link
+                key={nav.name}
+                to={nav.path}
+                className="hover-white flex-center justify-center"
+                onClick={handleMenuLinkClick}
+              >
+                {nav.name}
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );
