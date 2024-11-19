@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section id="--home" className="flex-center justify-center full-width full-height flex-column">
+    <section id="--home" className="flex-center justify-center full-height-a flex-column">
       <div className="flex-column flex-center">
         <motion.div
           initial={{ opacity: 0 }}

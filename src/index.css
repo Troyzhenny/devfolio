@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: relative;
 
   font-family: 'Satoshi', sans-serif;
   background-color: var(--background-color);
@@ -52,7 +53,7 @@ footer {
   0% {
     width: 50px;
     height: 50px;
-    border-radius: 0 0 100% 0;
+    border-radius: 100% 0;
     top: 70px;
     right: 0;
   }
@@ -131,9 +132,9 @@ footer {
 }
 
 /* Only for navbar vs page height */
-.full-height {
-  height: 100vh;
-  height: calc(100vh - 50px)
+.full-height-a {
+  height: 100%;
+  height: calc(100vh - 90px)
 }
 
 /* Only for navbar vs page height */
@@ -382,9 +383,11 @@ a {
     }
 
     p {
-      font-size: .9em;
+      font-size: 1em;
       display: flex;
       flex-wrap: wrap;
+      width: 24rem;
+      text-align: center;
     }
 
     h2 {
@@ -402,13 +405,13 @@ a {
   }
 
   #card {
-    width: 25rem;
-    height: 25rem;
+    width: 23rem;
+    height: 23rem;
 
     #imageWrapper {
       img {
-        width: 25rem;
-        height: 25rem;
+        width: 23rem;
+        height: 23rem;
       }
     }
 
