@@ -29,7 +29,7 @@ export const projectList = [
     image: "/images/p1.jpg",
     title: "Solarite",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+      "Solarite is a web application designed to streamline solar panel services in Los Angeles.Built with Reactjs, Vite, Tailwind, and Supabase.",
     codeUrl: "https://github.com/chingu-voyages/v52-tier2-team-25/tree/main/solarite",
   },
   {
