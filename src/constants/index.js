@@ -27,10 +27,10 @@ export const projectList = [
   {
     id: "1",
     image: "/images/p1.jpg",
-    title: "Project 1",
+    title: "Solarite",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
-    codeUrl: "https://github.com/Troyzhenny/surgepos",
+    codeUrl: "https://github.com/chingu-voyages/v52-tier2-team-25/tree/main/solarite",
   },
   {
     id: "2",
