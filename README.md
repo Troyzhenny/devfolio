@@ -1,6 +1,6 @@
 # Troy’s Devfolio
 
-A portfolio curated by me to display my deployed projects to potential recruiters.
+A portfolio curated by me to display my deployed projects to recruiters.
 
 Installation:
 
