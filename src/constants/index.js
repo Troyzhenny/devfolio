@@ -51,9 +51,9 @@ export const projectList = [
   {
     id: "4",
     image: "/images/p1.jpg",
-    title: "Project 4",
+    title: "Portfolio v.1",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+      "A modern, responsive portfolio website built to showcase my skills in web development and UI/UX design. Built from scratch using React, CSS, and Vite.",
     codeUrl: "https://github.com/Troyzhenny/devfolio",
   },
 ];
