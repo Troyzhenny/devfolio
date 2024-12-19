@@ -407,8 +407,9 @@ a {
   }
 
   #card {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
+    padding: 10px;
 
     #imageWrapper {
       img {
