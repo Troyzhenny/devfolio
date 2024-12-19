@@ -153,6 +153,10 @@ footer {
   transition: all .3s ease;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 h1 {
   font-size: 5rem;
 }
@@ -273,9 +277,10 @@ a {
   border: .11rem solid #282828;
   border-radius: 10px;
   padding: 15px;
+  background: linear-gradient(to top, #2f7f9e2c, #ffffff04);
 
   &:hover {
-    background: linear-gradient(to top, #2f7f9e2c, #ffffff04);
+    background: linear-gradient(to top, #3b986d3b, #ffffff04);
     transition: 1s ease;
   }
 
@@ -479,7 +484,7 @@ a {
 }
 
 /* Medium Screens */
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 400px) {
   #deck {
     padding: 20px;
   }
@@ -503,7 +508,7 @@ a {
     }
 
     p {
-      font-size: .99em;
+      /* font-size: .99em; */
       display: flex;
       flex-wrap: wrap;
     }
@@ -566,7 +571,7 @@ a {
     }
 
     p {
-      font-size: .99em;
+      /* font-size: .99em; */
       display: flex;
       flex-wrap: wrap;
     }

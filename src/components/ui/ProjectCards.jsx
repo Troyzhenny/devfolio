@@ -9,8 +9,10 @@ const ProjectCard = ({ project }) => {
     // TODO: When card is hovered, top right corner an icon pops up to view live site
     <div id="card" className="card flex-center flex-column">
       <div id="deck" className="flex-center justify-center flex-column">
-        <h2>{title}</h2>
-        <p className="text-white">{description}</p>
+        <div className="flex-center justify-center flex-column">
+          <h2>{title}</h2>
+          <p className="text-white">{description}</p>
+        </div>
         <div className="flex-center pady-5 gap-sm">
           <PrimaryBtn value="Code" url={codeUrl} />
           <br />
