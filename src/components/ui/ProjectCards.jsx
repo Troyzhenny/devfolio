@@ -8,16 +8,13 @@ const ProjectCard = ({ project }) => {
   return (
     // TODO: When card is hovered, top right corner an icon pops up to view live site
     <div id="card" className="card flex-center flex-column">
-      <div>
-        <h2>{title}</h2>
-      </div>
-
       <div id="deck" className="flex-center justify-center flex-column">
+        <h2>{title}</h2>
         <p className="text-white">{description}</p>
         <div className="flex-center pady-5 gap-sm">
           <PrimaryBtn value="Code" url={codeUrl} />
           <br />
-          <LuArrowUpRight className="app--btn pointer"/>
+          <LuArrowUpRight className="app--btn pointer" />
         </div>
       </div>
     </div>
