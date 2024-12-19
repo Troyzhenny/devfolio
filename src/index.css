@@ -161,7 +161,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 li {
@@ -375,6 +375,7 @@ a {
     
     #cta-text {
       margin-left: 2em;
+      font-size: .9em;
     }
 
     h1 {
@@ -396,7 +397,7 @@ a {
 
     h3,
     span {
-      font-size: .8em;
+      font-size: 1em;
     }
   }
 

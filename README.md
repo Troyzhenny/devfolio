@@ -1,6 +1,6 @@
 # Troy’s Devfolio
 
-A portfolio curated by me to display my deployed projects to potential recruiters.
+A portfolio curated by me to display my deployed projects to recruiters.
 
 Installation:
 
@@ -23,7 +23,7 @@ Usage:
 
 	1.	Start the development server:
 
-npm start
+npm run dev
 
 
 	2.	Open your browser and go to http://localhost:3000.

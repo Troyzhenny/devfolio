@@ -27,10 +27,10 @@ export const projectList = [
   {
     id: "1",
     image: "/images/p1.jpg",
-    title: "Project 1",
+    title: "Solarite",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
-    codeUrl: "https://github.com/Troyzhenny/surgepos",
+      "Solarite is a web application designed to streamline solar panel services in Los Angeles.Built with Reactjs, Vite, Tailwind, and Supabase.",
+    codeUrl: "https://github.com/chingu-voyages/v52-tier2-team-25/tree/main/solarite",
   },
   {
     id: "2",
@@ -51,9 +51,9 @@ export const projectList = [
   {
     id: "4",
     image: "/images/p1.jpg",
-    title: "Project 4",
+    title: "Portfolio v.1",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+      "A modern, responsive portfolio website built to showcase my skills in web development and UI/UX design. Built from scratch using React, CSS, and Vite.",
     codeUrl: "https://github.com/Troyzhenny/devfolio",
   },
 ];

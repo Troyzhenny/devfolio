@@ -55,32 +55,26 @@ const Resume = () => {
           </ul>
         </div>
 
-        {/* <div>
-          <h3 className="text-white">UI Engineer Co-op • Apple</h3>
-          <span>July - Dec 2017</span>
+        <div>
+          <h3 className="text-white">Frontend Engineer • Chingu</h3>
+          <span>Nov - Dec 2024</span>
           <ul>
             <li>
-              Developed and styled interactive web applications for Apple Music
-              using Ember and SCSS.
+              Developed and styled a solar appointment schedule and dashboard for Solarite, using React, Tailwind, and Supabase
             </li>
             <br />
             <li>
-              Built and shipped the Apple Music Extension for Facebook Messenger
-              leveraging third-party and internal API integrations.
+              Built and shipped a resident portal to allow residents to view, create, and cancel services and appointments.
             </li>
             <li>
-              Architected and implemented the user interface of Apple
-              Music&apos;s embeddable web player widget for in-browser user
-              authorization and full song playback.
+              Contributed extensively to the creation of the solarite website.
             </li>
             <br />
             <li>
-              Contributed extensively to the creation of MusicKit JS, a
-              public-facing JavaScript SDK for embedding Apple Music players
-              into web applications.
+              Contributed extensively to the creation of the user interface, and all other digital assets used in the application.
             </li>
           </ul>
-        </div> */}
+        </div>
       </section>
       <br />
       <br />
