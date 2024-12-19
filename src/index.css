@@ -250,6 +250,7 @@ a {
   border: .11rem solid #282828;
   border-radius: 10px;
   position: relative;
+  padding: 15px;
 
 
   #imageWrapper {
@@ -258,8 +259,8 @@ a {
     img {
       object-fit: cover;
       border-radius: 8px;
-      width: 40rem;
-      height: 40rem;
+      width: 100%;
+      height: auto;
     }
   }
 

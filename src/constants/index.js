@@ -35,19 +35,19 @@ export const projectList = [
   {
     id: "2",
     image: "/images/p1.jpg",
-    title: "Project 2",
+    title: "Me365.shop",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
-    codeUrl: "https://github.com/Troyzhenny/kyromerch",
+      "An engaging and user-friendly merch store built for YouTuber ME365. Features include dynamic product displays, secure checkout, and responsive design for an optimal shopping experience on any device.",
+    codeUrl: "https://github.com/Troyzhenny/me365-shop",
   },
-  {
-    id: "3",
-    image: "/images/p1.jpg",
-    title: "Project 3",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
-    codeUrl: "https://github.com/Troyzhenny/playstation.com-clone",
-  },
+  // {
+  //   id: "3",
+  //   image: "/images/p1.jpg",
+  //   title: "Project 3",
+  //   description:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolores culpa corrupti ea repudiandae.",
+  //   codeUrl: "https://github.com/Troyzhenny/playstation.com-clone",
+  // },
   {
     id: "4",
     image: "/images/p1.jpg",
