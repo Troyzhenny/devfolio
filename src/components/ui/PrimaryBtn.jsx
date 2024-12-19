@@ -13,7 +13,7 @@ const PrimaryBtn = ({ value, url }) => {
     <input
       type="button"
       value={value}
-      className="primary--btn pointer"
+      className="primary--btn pointer text-gray"
       onClick={handleClick}
       disabled={!url}
     />

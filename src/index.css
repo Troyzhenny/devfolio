@@ -199,14 +199,29 @@ a {
 }
 
 .primary--btn {
-  width: 8rem;
+  width: 5rem;
   height: 2.4rem;
 
-  background-color: var(--primary--color);
+  background-color:transparent;
+  border: 1px solid var(--primary--color);
   border-radius: 30px;
-  border: 0;
   font-size: 1em;
+
+  &:hover {
+    background: linear-gradient(to top, #2f7f9e2c, #ffffff04);
+    transition: all .3s ease-in-out;
+  }
 }
+
+.app--btn {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 100%;
+  color: var(--secondary--color);
+  font-size: 5px;
+  background-color: var(--primary--color);
+}
+
 
 /* Buttons-- Call to action */
 .cto-container {
@@ -252,6 +267,11 @@ a {
   position: relative;
   padding: 15px;
 
+  &:hover {
+    background: linear-gradient(to top, #2f7f9e2c, #ffffff04);
+    transition: all .3s ease-in-out;
+  }
+
 
   #imageWrapper {
     width: 100%;
@@ -262,12 +282,6 @@ a {
       width: 100%;
       height: auto;
     }
-  }
-
-  #cardContent {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5rem;
   }
 
   #deck {
@@ -407,9 +421,8 @@ a {
   }
 
   #card {
-    width: 20rem;
+    width: 80%;
     height: 20rem;
-    padding: 10px;
 
     #imageWrapper {
       img {
@@ -419,7 +432,7 @@ a {
     }
 
     #deck {
-      width: 80%;
+      width: 100%;
     }
   }
 
