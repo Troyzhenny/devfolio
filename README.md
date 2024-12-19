@@ -35,7 +35,6 @@ Technologies Used:
 	•	React
 	•	CSS
 	•	framer-motion 
-	•	prop-types .
 
 License:
 This project is licensed under the MIT License.
