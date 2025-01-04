@@ -14,13 +14,11 @@ export const items = [
 ]
 
 
-import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const footerLinks = [
-  {id: 1, Icon: FaXTwitter, name: '', url:'https://www.x.com'},
-  {id: 2, Icon: FaInstagram, name: '', url:'https://www.instagram.com/_troyyzzz_/'},
-  {id: 3, Icon: FaLinkedin, name: '', url:'https://www.linkedin.com/in/tevin-campbell/'},
+  {id: 1, Icon: FaInstagram, name: '', url:'https://www.instagram.com/_troyyzzz_/'},
+  {id: 2, Icon: FaLinkedin, name: '', url:'https://www.linkedin.com/in/tevin-campbell/'},
 ];
 
 export const projectList = [
@@ -38,7 +36,7 @@ export const projectList = [
     description:
       "An engaging and user-friendly merch store built for YouTuber ME365. Features include dynamic product displays, secure checkout, and responsive design for an optimal shopping experience on any device.",
     codeUrl: "https://github.com/Troyzhenny/me365-shop",
-    liveUrl: ""
+    liveUrl: "https://me365-shop.vercel.app/"
   },
   {
     id: 3,
