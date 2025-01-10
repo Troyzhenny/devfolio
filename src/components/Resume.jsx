@@ -60,18 +60,29 @@ const Resume = () => {
           <span>Nov - Dec 2024</span>
           <ul>
             <li>
-              Developed and styled a solar appointment schedule and dashboard for Solarite, using React, Tailwind, and Supabase
+              Developed and styled a solar appointment schedule and dashboard
+              for Solarite, using React, Tailwind, and Supabase
             </li>
             <br />
             <li>
-              Built and shipped a resident portal to allow residents to view, create, and cancel services and appointments.
+              Built and shipped a resident portal to allow residents to view,
+              create, and cancel services and appointments.
             </li>
             <li>
               Contributed extensively to the creation of the solarite website.
             </li>
             <br />
             <li>
-              Contributed extensively to the creation of the user interface, and all other digital assets used in the application.
+              Contributed extensively to the creation of the user interface, and
+              all other digital assets used in the application.
+            </li>
+            <li>
+              Received a{" "}
+              <a href="/files/ChinguCert.pdf" target="_blank">
+                <ins className="text-white hover-gray">
+                  certificate of completion.
+                </ins>
+              </a>
             </li>
           </ul>
         </div>
@@ -79,15 +90,12 @@ const Resume = () => {
       <br />
       <br />
       <section className="download--wrapper flex-center">
-        <a href="/resume.pdf" className="flex-center hover-white transition-all gap-sm">
-          Download full resume
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path
-              d="M256 464a208 208 0 1 1 0-416 208 208 0 1 1 0 416zM256 
-                0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM128 256l0 32L256 416 
-                384 288l0-32-80 0 0-128-96 0 0 128-80 0z"
-            />
-          </svg>
+        <a
+          href="/files/TevinCRes24.pdf"
+          target="_blank"
+          className="flex-center hover-white transition-all gap-sm"
+        >
+          View full resume ↗
         </a>
       </section>
     </div>
