@@ -41,16 +41,20 @@ const Resume = () => {
 
         <div>
           <h3 className="text-white">Frontend Engineer • PBRP</h3>
-          <span>Fall 2023 - 2024</span>
+          <span>Sep 2023 - Current</span>
           <ul>
             <li>
               Collaborate with designers and other engineers on various game
-              user interfaces for the PBRP Grand Theft Auto V game server.
+              user interfaces for the PBRP Grand Theft Auto V server.
             </li>
             <br />
             <li>
               Provide designing assistance to designers to build and refine user
               interfaces.
+            </li>
+            <li>
+              Provide leadership within engineering department through close
+              collaboration, knowledge shares, and mentorship.
             </li>
           </ul>
         </div>
